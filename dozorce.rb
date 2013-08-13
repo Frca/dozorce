@@ -11,7 +11,7 @@ bot = Cinch::Bot.new do
     c.channels = ['#soulwell']
     c.encoding = 'UTF-8'
     c.plugins.plugins = [
-        Bash,
+        #Bash,
         Calculator,
         Csfd,
         Google,
